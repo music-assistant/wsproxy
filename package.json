@@ -1,0 +1,23 @@
+{
+  "name": "music-assistant-wsproxy",
+  "version": "1.0.0",
+  "description": "Websocket proxy for securely connecting to your music assistant instance remotely",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/music-assistant/wsproxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/music-assistant/wsproxy/issues"
+  },
+  "homepage": "https://github.com/music-assistant/wsproxy#readme",
+  "dependencies": {
+    "bufferutil": "^4.0.2",
+    "ws": "^7.4.1"
+  }
+}
